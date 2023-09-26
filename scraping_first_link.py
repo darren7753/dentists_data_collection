@@ -1,6 +1,6 @@
 import os
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
@@ -17,7 +17,7 @@ options = Options()
 options.add_argument("--headless")
 options.add_argument("window-size=1920x1080")
 
-driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager(version="114.0.0").install()), options=options)
+driver = webdriver.Chrome(service=Service("chromedriver.exe"), options=options)
 
 url = "https://yankes.kemkes.go.id/praktekmandiri/cari/index/?propinsi=&kabkota=&kategori=5&nama=Gigi"
 driver.get(url)
