@@ -17,7 +17,7 @@ options = Options()
 options.add_argument("--headless")
 options.add_argument("window-size=1920x1080")
 
-driver = webdriver.Chrome(service=Service("chromedriver.exe"), options=options)
+driver = webdriver.Chrome(options=options)
 
 url = "https://yankes.kemkes.go.id/praktekmandiri/cari/index/?propinsi=&kabkota=&kategori=5&nama=Gigi"
 driver.get(url)
