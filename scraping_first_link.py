@@ -71,9 +71,6 @@ while True:
 
     page += 1
 
-    if page > 1:
-        break
-
 driver.quit()
 
 df.to_excel("Data/data_first_link.xlsx", index=False)
