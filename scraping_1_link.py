@@ -73,4 +73,4 @@ while True:
 
 driver.quit()
 
-df.to_excel("Data/data_first_link.xlsx", index=False)
+df.to_excel("Data/data_1_link.xlsx", index=False)
