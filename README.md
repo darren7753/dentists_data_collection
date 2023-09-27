@@ -3,7 +3,7 @@
 This project was commissioned by a client. If you're interested in similar work, check out my freelance data analyst profile on [Fastwork](https://fastwork.id/user/darren7753).
 
 ## Objective
-The goal of this project was to scrape dentists' information across Indonesia, specifically focusing on their name, address, and phone number. The data was sourced from the following links:
+The aim of this project was to scrape dentists' information across Indonesia, specifically focusing on their name, address, and phone number. The data was sourced from the following links:
 - [Pelayanan Kesehatan - Praktek Mandiri](https://yankes.kemkes.go.id/praktekmandiri/cari/index/?propinsi=&kabkota=&kategori=5&nama=Gigi)
 - [Pelayanan Kesehatan - Klinik (Gigi)](https://yankes.kemkes.go.id/klinik/cari?propinsi=&kabkota=&jenis=&nama=gigi)
 - [Pelayanan Kesehatan - Klinik (Dental)](https://yankes.kemkes.go.id/klinik/cari?propinsi=&kabkota=&jenis=&nama=dental)
