@@ -22,7 +22,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run script
-      run: python scraping_second_link.py
+      run: python scraping_2_link.py
 
     - name: Commit and push
       run: |
