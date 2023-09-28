@@ -1,6 +1,6 @@
 # Scraping Dentists' Information
 
-This project was commissioned by a client. If you're interested in similar work, check out my freelance data analyst profile on [Fastwork](https://fastwork.id/user/darren7753).
+This project was commissioned by a client on 2023-09-26. If you're interested in similar work, check out my freelance data analyst profile on [Fastwork](https://fastwork.id/user/darren7753).
 
 ## Objective
 The aim of this project was to scrape dentists' information across Indonesia, specifically focusing on their name, address, and phone number. The data was sourced from the following links:
